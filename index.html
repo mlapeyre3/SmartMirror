@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Smart Mirror</title>
+
+	<!-- StyleSheets -->
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/skycons.js"></script>
+	<script type="text/javascript" src="js/moment.js"></script>
+	<script type="text/javascript" src="js/digitalClock.js"></script>
+	<script type="text/javascript" src="js/weather.js"></script>
+</head>
+
+<body>
+	<div class="backgroundMirror"></div>
+
+	<!-- Top Left Corner -->
+	<div class="top left">
+
+		<!-- Digital Clock -->
+		<div class="small dimmed" id="date"></div>
+		<div id="digitalClock"></div>
+
+	</div>
+
+	<!-- Top Right Corner -->
+	<div class="top right">
+
+		<!-- Digital Clock -->
+		<div class="weatherCanvas medium">
+			<div id="windAndSunset">
+				<canvas class="weatherElement" id="weatherIconWind" width="32" height="32"></canvas>
+				<div class="weatherElement wind"></div>
+				<canvas class="weatherElement" id="weatherIconSun" width="64" height="64"></canvas>
+				<div class="weatherElement sun"></div>
+			</div>
+			<div id="temperature">
+				<canvas class="weatherElement" id="weatherIconCurrent" width="64" height="64"></canvas>
+				<div class="weatherElement temp"></div>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+/* ---------- Main Body ---------- */
+body, html {
+	background: #000;
+	padding: 0px;
+	margin: 0px;
+	width:100%;
+	height: 100%;
+
+	position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+
+	font-family: "HelveticaNeue-Light";
+	letter-spacing: -0px;
+	color: #fff;
+	font-size: 75px;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Background ---------- */
+.backgroundMirror {
+    background-color: #000;
+	opacity: 0.25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    -webkit-transition: opacity 1s eas-in-out;
+	transition: opacity 1s eas-in-out;
+}
+
+/* -- Margins and Basic Structure -- */
+.top {
+	position: absolute;
+	top: 50px;
+}
+
+.left {
+	position: absolute;
+	left: 15px;
+}
+
+.right {
+	position: absolute;
+	right: 15px;
+	text-align: right;
+}
+
+.farbottom {
+	position: absolute;
+	bottom: 0px;
+}
+
+.center-ver {
+	position: absolute;
+	top: 50%;
+	height: 200px;
+	margin-top: -100px;
+	line-height: 100px;
+}
+
+.lower-third {
+	position: absolute;
+	top: 75%;
+	height: 200px;
+	margin-top: -100px;
+	line-height: 100px;	
+}
+
+.center-hor {
+	position: absolute;
+	right: 10px;
+	left: 10px;
+	text-align: center;	
+}
+
+.bottom {
+	position: absolute;
+	bottom: 50px;
+}
+
+.temp {
+	text-align:center;
+	font-size: 70px;
+}
+
+.tempfeelslike {
+	text-align:center;
+}
+
+.spacer {
+	height:10px
+}
+
+/* -- Font Sizes -- */
+.xxxsmall {
+	font-size: 10px;
+	letter-spacing: 0px;
+	font-family: "HelveticaNeue-Medium";
+}
+
+.xxsmall2 {
+	font-size: 12px;
+	letter-spacing: 0px;
+	font-family: "HelveticaNeue-Medium";
+}
+
+.xxsmall {
+	font-size: 15px;
+	letter-spacing: 0px;
+	font-family: "HelveticaNeue-Medium";
+}
+
+.xxsmall .wi {
+	line-height: 15px;
+}
+
+.xsmall {
+	font-size: 20px;
+	letter-spacing: 0px;
+	font-family: "HelveticaNeue-Medium";
+}
+
+.xsmall .wi {
+	line-height: 20px;
+}
+
+
+.small {
+	font-size: 25px;
+	letter-spacing: 0px;
+	font-family: "HelveticaNeue-Medium";
+}
+
+.small .wi {
+	line-height: 25px;
+}
+
+.medium {
+	font-size: 35px;
+	letter-spacing: -1px;
+	font-family: "HelveticaNeue-Light";
+}
+
+.medium .wi {
+	line-height: 35px;
+}
+
+.light {
+	font-family: "HelveticaNeue-UltraLight";
+}
+
+/* -- Dimming -- */
+.xxdimmed {
+	color: #444;
+}
+
+.xdimmed {
+	color: #666;
+} 
+
+.dimmed {
+	color: #aaa;
+}
+
+
+/* ---------- Digital Clock ---------- */
+#cssclock {
+	height: 270px;
+}
+#clockdigital {
+	float: right;
+	height: 250px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 485px;
+}
+#clockdigital div {
+	background: #000000;
+	height: 88px;
+	position: absolute;
+	width: 485px;
+}
+#clockdigital div:last-child {
+	bottom: 0;
+}
+#clockdigital img {
+	border: 0;
+	display: block;
+	height: 2000px;
+	left: -1553px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -867px;
+	width: 2000px;
+}
+
+/* ---------- Weather ---------- */
+.weatherCanvas {
+
+}
+
+.weatherElement {
+	display: inline-block;
+}
